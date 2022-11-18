@@ -1,6 +1,6 @@
 <?php
   include 'config.php';
-  if isset($_SESSION['user_id']) OR empty(intval($_SESSION['user_id'])){
+  if isset($_SESSION['user_id']) || empty(intval($_SESSION['user_id'])){
     $page = "login";
   }else{
         $q = explode("/", $_GET['q']);
