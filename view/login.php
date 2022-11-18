@@ -1910,7 +1910,141 @@
         display: none !important
       }
     </style>
-  </head><body><div id="__nuxt"><div id="__layout"><div data-v-9aa76d96="" id="app" class="default-layout default-layout--has-bottom-navigation"><?php include 'modules/header.php'; ?><div data-v-9aa76d96="" class="default-layout__content"><div data-v-16f06fe2="" data-v-34205283="" data-v-320d1414="" data-v-9aa76d96="" class="section-content auth-form-app section-content--theme-gray-30" style="--actions-height-compensation:0px"><div data-v-39517f6a="" data-v-16f06fe2="" class="section-nav section-content__nav section-nav--theme-primary" style="display:none!important"><button data-v-3311ebaa="" data-v-39517f6a="" type="button" title="Geri" class="btn section-nav__btn btn--size-m btn--theme-primary-15 btn--narrow btn--rounded" style="display:none!important"><span data-v-50dbd0c0="" data-v-39517f6a="" aria-hidden="true" class="ico ico--back" data-v-3311ebaa="" style="display:none!important"><svg data-v-50dbd0c0="" viewBox="0 0 448 512" focusable="false" role="img" class="ico__svg"><path d="M193 154l-65 66h296c13 0 24 11 24 24v24c0 13-11 24-24 24H128l65 66c10 9 10 24 0 34l-17 16c-9 10-24 10-33 0L7 273c-9-9-9-25 0-34l136-135c9-10 24-10 33 0l17 16c10 10 10 25 0 34z"></path></svg></span></button></div><div data-v-16f06fe2="" class="section-content__wrap"><div data-v-16f06fe2="" class="section-content__body section-content__body--inner-offset"><div data-v-34205283="" data-v-16f06fe2="" class="auth-form-app__content"><ul data-v-7d160ce2="" data-v-34205283="" class="tabs auth-form-tabs auth-form-app__tabs tabs--equal" data-v-16f06fe2=""><li data-v-7d160ce2="" class="tabs__item"><label data-v-7d160ce2="" class="tabs__tab tabs-tab tabs-tab--is-toggled"><input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="login_password" checked=""><span data-v-7d160ce2="" class="tabs-tab__container"><span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--full-reg" data-v-7d160ce2=""><svg data-v-50dbd0c0="" viewBox="0 0 32 32" focusable="false" role="img" class="ico__svg"><path d="M16 20.7l-4-3.5L.8 26.9c.4.4 1 .6 1.6.6h27.4c.6 0 1.2-.2 1.6-.6L20 17.2l-4 3.5z"></path><path d="M31.3 5.3c-.4-.4-1-.6-1.6-.6H2.3c-.6 0-1.2.2-1.6.6L16 18.4 31.3 5.3zM0 6.7v19l11-9.4zM21 16.3l11 9.4v-19z"></path></svg></span></span><span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2=""><span data-v-157dcca9="" class="caption__label"> E-mail ile </span></span></label></li><li data-v-7d160ce2="" class="tabs__item"><label data-v-7d160ce2="" class="tabs__tab tabs-tab"><input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="phone_password"><span data-v-7d160ce2="" class="tabs-tab__container"><span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--phone-reg" data-v-7d160ce2=""><svg data-v-50dbd0c0="" viewBox="0 0 10 15" focusable="false" role="img" class="ico__svg"><path d="M8.7.7h-7C1 .7.4 1.1.4 1.7v12c0 .6.5 1 1.1 1h7.1c.6 0 1.1-.4 1.1-1v-12c0-.6-.5-1-1-1zM4 1.4h2.3l.1.1v.1H4v-.2zm1.2 12.8c-.3 0-.6-.2-.6-.4 0-.3.3-.5.6-.5s.5.2.5.5c0 .2-.2.4-.5.4zM9 13H1.3V2.2H9V13z"></path></svg></span></span><span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2=""><span data-v-157dcca9="" class="caption__label"> Telefonla </span></span></label></li><li data-v-7d160ce2="" class="tabs__item"><label data-v-7d160ce2="" class="tabs__tab tabs-tab"><input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="social"><span data-v-7d160ce2="" class="tabs-tab__container"><span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--soc-reg" data-v-7d160ce2=""><svg data-v-50dbd0c0="" viewBox="0 0 32 32" focusable="false" role="img" class="ico__svg"><path d="M19.3 7.3c1.5.9 2.6 2.4 2.8 4.3.6.3 1.2.5 2 .5a4.7 4.7 0 000-9.3c-2.7-.1-4.8 2-4.8 4.5zm-3 9.6c2.6 0 4.6-2.2 4.6-4.7s-2.1-4.7-4.6-4.7-4.7 2.2-4.7 4.7 2 4.7 4.7 4.7zm1.9.3h-4a6 6 0 00-6 6v5h.3c3.2 1 6 1.4 8.2 1.4 4.4 0 7-1.3 7.2-1.3l.3-.2v-4.8a6 6 0 00-6-6.1zm7.8-4.8h-4c0 1.6-.7 3-1.7 4 2.9.9 5 3.6 5 6.9v1.5c4-.1 6.2-1.3 6.3-1.3l.3-.2h.1v-4.8a6 6 0 00-6-6.1zm-18-.3c1 0 1.8-.3 2.5-.8.2-1.5 1-2.8 2.2-3.7v-.3a4.7 4.7 0 00-9.3 0c0 2.6 2 4.8 4.6 4.8zm4.2 4.3c-1-1-1.7-2.5-1.8-4H6a6 6 0 00-6 6v5h.3c2.6.9 4.8 1.2 6.8 1.3v-1.4c0-3.3 2.2-6 5.1-6.9z"></path></svg></span></span><span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2=""><span data-v-157dcca9="" class="caption__label"> Sosyal ağlar </span></span></label></li></ul><form data-v-3c1b8834="" data-v-34205283="" class="auth-form-by-password" data-v-16f06fe2=""><div data-v-8f3323ae="" data-v-3c1b8834="" id="content_pic" class="custom-pixel sf-hidden"></div><div data-v-2e2f93e8="" data-v-53e3f1ca="" data-v-3c1b8834="" class="field-base field auth-form-by-password__field field-base--required field-base--has-inner-offset field-base--has-label field-base--label-on-placeholder-position field-base--theme-gray-100 field-base--size-m"><div data-v-2e2f93e8="" class="field-base__container"><div data-v-2e2f93e8="" class="field-base__content"><div data-v-2e2f93e8="" class="field-base__label field-base-label field-base-label--placeholder-position"><span data-v-2e2f93e8="" class="field-base-label__text field-base-label-text"><span data-v-2e2f93e8="" class="field-base-label-text__caption"> e-mail ya da id numaranız </span></span></div><div data-v-2e2f93e8="" class="field-base__slot"><div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container"><input data-v-53e3f1ca="" aria-label="" class="field__input" data-v-2e2f93e8="" value=""></div></div></div></div></div><div data-v-2e2f93e8="" data-v-53e3f1ca="" data-v-3c1b8834="" class="field-base field auth-form-by-password__field field-base--required field-base--has-inner-offset field-base--has-label field-base--label-on-placeholder-position field-base--theme-gray-100 field-base--size-m"><div data-v-2e2f93e8="" class="field-base__container"><div data-v-2e2f93e8="" class="field-base__content"><div data-v-2e2f93e8="" class="field-base__label field-base-label field-base-label--placeholder-position"><span data-v-2e2f93e8="" class="field-base-label__text field-base-label-text"><span data-v-2e2f93e8="" class="field-base-label-text__caption"> Şifre </span></span></div><div data-v-2e2f93e8="" class="field-base__slot"><div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container"><input data-v-53e3f1ca="" aria-label="" type="password" class="field__input" data-v-2e2f93e8="" value=""></div></div></div><button data-v-37dd4828="" data-v-3c1b8834="" type="button" aria-label="Şifreyi göster" title="Şifreyi göster" class="btn btn--size-m btn--theme-default" data-v-2e2f93e8=""><span data-v-50dbd0c0="" data-v-3c1b8834="" aria-hidden="true" class="ico ico--invisible ico--size-xs" data-v-37dd4828=""><svg data-v-50dbd0c0="" viewBox="0 0 14 10" focusable="false" role="img" class="ico__svg"><path d="M13.3 4.5C12.7 3.5 12 2.6 11 2l-.5.8c.8.6 1.5 1.3 2 2.2-.6 1-1.4 1.8-2.4 2.4-.8.6-1.7.8-2.6 1l-.5.9c1.3 0 2.5-.4 3.6-1 1.1-.7 2-1.6 2.7-2.8a1 1 0 000-1z"></path><path d="M9.3 6.4c.6-.6 1-1.4 1-2.4l-.1-.6-2 3.8a3 3 0 001.1-.8zM9.9.5L9 0l-.3.1-.4.7H7a7 7 0 00-3.6 1A8 8 0 00.7 4.4L.6 5l.1.5a7.8 7.8 0 003.4 3.1l-.3.5.1.3.9.5h.3L10 .7 9.9.5zM4.6 7.8l-.7-.4C2.9 6.8 2 6 1.5 5 2.2 3.8 3 3 4.2 2.4c-.3.5-.4 1-.4 1.7A3.3 3.3 0 005 6.8l-.5 1zm2.7-5.4l-.3.1c-.4 0-.8.2-1 .5-.3.3-.5.6-.5 1v.3l-.3.1-.3-.1v-.2A2.2 2.2 0 017 1.8h.3v.6z"></path></svg></span></button></div></div><label data-v-731b72ae="" data-v-3c1b8834="" theme="default" class="selection auth-form-by-password__remember selection--theme-default selection--type-checkbox"><input data-v-731b72ae="" name="" type="checkbox" class="selection__input" value=""><span data-v-1072ea94="" data-v-731b72ae="" class="selection-ico selection__icon selection-ico--size-m"><span data-v-5cc7ff5c="" data-v-1072ea94="" class="selection-ico-checkbox selection-ico-checkbox--theme-default"><span data-v-50dbd0c0="" data-v-5cc7ff5c="" aria-hidden="true" class="ico selection-ico-checkbox__ico ico--selection-check"><svg data-v-50dbd0c0="" viewBox="0 0 512 512" focusable="false" role="img" class="ico__svg"><path d="M174 439L7 273a26 26 0 010-36l37-36c10-10 26-10 36 0l112 112L432 73c10-10 26-10 36 0l37 36c9 10 9 26 0 36L210 439a26 26 0 01-36 0z"></path></svg></span></span></span><span data-v-157dcca9="" data-v-3c1b8834="" class="caption caption--size-xs" data-v-731b72ae=""><span data-v-157dcca9="" class="caption__label"> Beni Hatırla </span></span></label><button data-v-37dd4828="" data-v-3c1b8834="" type="submit" class="btn auth-form-by-password__submit btn--size-l btn--theme-accent btn--rounded"><span data-v-157dcca9="" data-v-3c1b8834="" class="caption caption--size-m" data-v-37dd4828=""><span data-v-157dcca9="" class="caption__label"> Oturum Aç </span></span></button><a data-v-3c1b8834="" href="https://lite-1x6091017.top/tr/user/forgotpassword" class="auth-form-by-password__forgot-link"> Şifrenizi mi unuttunuz? </a></form></div></div></div></div></div><?php include 'modules/footer.php';?><?php include 'modules/appbar.php';?></div></div></div><style>
+  </head><body><div id="__nuxt">
+  <div id="__layout">
+    <div data-v-9aa76d96="" id="app" class="default-layout default-layout--has-bottom-navigation"> <?php include 'modules/header.php'; ?> <div data-v-9aa76d96="" class="default-layout__content">
+        <div data-v-16f06fe2="" data-v-34205283="" data-v-320d1414="" data-v-9aa76d96="" class="section-content auth-form-app section-content--theme-gray-30" style="--actions-height-compensation:0px">
+          <div data-v-39517f6a="" data-v-16f06fe2="" class="section-nav section-content__nav section-nav--theme-primary" style="display:none!important">
+            <button data-v-3311ebaa="" data-v-39517f6a="" type="button" title="Geri" class="btn section-nav__btn btn--size-m btn--theme-primary-15 btn--narrow btn--rounded" style="display:none!important">
+              <span data-v-50dbd0c0="" data-v-39517f6a="" aria-hidden="true" class="ico ico--back" data-v-3311ebaa="" style="display:none!important">
+                <svg data-v-50dbd0c0="" viewBox="0 0 448 512" focusable="false" role="img" class="ico__svg">
+                  <path d="M193 154l-65 66h296c13 0 24 11 24 24v24c0 13-11 24-24 24H128l65 66c10 9 10 24 0 34l-17 16c-9 10-24 10-33 0L7 273c-9-9-9-25 0-34l136-135c9-10 24-10 33 0l17 16c10 10 10 25 0 34z"></path>
+                </svg>
+              </span>
+            </button>
+          </div>
+          <div data-v-16f06fe2="" class="section-content__wrap">
+            <div data-v-16f06fe2="" class="section-content__body section-content__body--inner-offset">
+              <div data-v-34205283="" data-v-16f06fe2="" class="auth-form-app__content">
+                <ul data-v-7d160ce2="" data-v-34205283="" class="tabs auth-form-tabs auth-form-app__tabs tabs--equal" data-v-16f06fe2="">
+                  <li data-v-7d160ce2="" class="tabs__item">
+                    <label data-v-7d160ce2="" class="tabs__tab tabs-tab tabs-tab--is-toggled">
+                      <input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="login_password" checked="">
+                      <span data-v-7d160ce2="" class="tabs-tab__container">
+                        <span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--full-reg" data-v-7d160ce2="">
+                          <svg data-v-50dbd0c0="" viewBox="0 0 32 32" focusable="false" role="img" class="ico__svg">
+                            <path d="M16 20.7l-4-3.5L.8 26.9c.4.4 1 .6 1.6.6h27.4c.6 0 1.2-.2 1.6-.6L20 17.2l-4 3.5z"></path>
+                            <path d="M31.3 5.3c-.4-.4-1-.6-1.6-.6H2.3c-.6 0-1.2.2-1.6.6L16 18.4 31.3 5.3zM0 6.7v19l11-9.4zM21 16.3l11 9.4v-19z"></path>
+                          </svg>
+                        </span>
+                      </span>
+                      <span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2="">
+                        <span data-v-157dcca9="" class="caption__label"> E-mail ile </span>
+                      </span>
+                    </label>
+                  </li>
+                  <li data-v-7d160ce2="" class="tabs__item">
+                    <label data-v-7d160ce2="" class="tabs__tab tabs-tab">
+                      <input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="phone_password">
+                      <span data-v-7d160ce2="" class="tabs-tab__container">
+                        <span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--phone-reg" data-v-7d160ce2="">
+                          <svg data-v-50dbd0c0="" viewBox="0 0 10 15" focusable="false" role="img" class="ico__svg">
+                            <path d="M8.7.7h-7C1 .7.4 1.1.4 1.7v12c0 .6.5 1 1.1 1h7.1c.6 0 1.1-.4 1.1-1v-12c0-.6-.5-1-1-1zM4 1.4h2.3l.1.1v.1H4v-.2zm1.2 12.8c-.3 0-.6-.2-.6-.4 0-.3.3-.5.6-.5s.5.2.5.5c0 .2-.2.4-.5.4zM9 13H1.3V2.2H9V13z"></path>
+                          </svg>
+                        </span>
+                      </span>
+                      <span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2="">
+                        <span data-v-157dcca9="" class="caption__label"> Telefonla </span>
+                      </span>
+                    </label>
+                  </li>
+                  <li data-v-7d160ce2="" class="tabs__item">
+                    <label data-v-7d160ce2="" class="tabs__tab tabs-tab">
+                      <input data-v-7d160ce2="" name="auth_tabs" type="radio" class="tabs-tab__input" value="social">
+                      <span data-v-7d160ce2="" class="tabs-tab__container">
+                        <span data-v-50dbd0c0="" aria-hidden="true" class="ico ico--soc-reg" data-v-7d160ce2="">
+                          <svg data-v-50dbd0c0="" viewBox="0 0 32 32" focusable="false" role="img" class="ico__svg">
+                            <path d="M19.3 7.3c1.5.9 2.6 2.4 2.8 4.3.6.3 1.2.5 2 .5a4.7 4.7 0 000-9.3c-2.7-.1-4.8 2-4.8 4.5zm-3 9.6c2.6 0 4.6-2.2 4.6-4.7s-2.1-4.7-4.6-4.7-4.7 2.2-4.7 4.7 2 4.7 4.7 4.7zm1.9.3h-4a6 6 0 00-6 6v5h.3c3.2 1 6 1.4 8.2 1.4 4.4 0 7-1.3 7.2-1.3l.3-.2v-4.8a6 6 0 00-6-6.1zm7.8-4.8h-4c0 1.6-.7 3-1.7 4 2.9.9 5 3.6 5 6.9v1.5c4-.1 6.2-1.3 6.3-1.3l.3-.2h.1v-4.8a6 6 0 00-6-6.1zm-18-.3c1 0 1.8-.3 2.5-.8.2-1.5 1-2.8 2.2-3.7v-.3a4.7 4.7 0 00-9.3 0c0 2.6 2 4.8 4.6 4.8zm4.2 4.3c-1-1-1.7-2.5-1.8-4H6a6 6 0 00-6 6v5h.3c2.6.9 4.8 1.2 6.8 1.3v-1.4c0-3.3 2.2-6 5.1-6.9z"></path>
+                          </svg>
+                        </span>
+                      </span>
+                      <span data-v-157dcca9="" class="caption caption--size-xxs" data-v-7d160ce2="">
+                        <span data-v-157dcca9="" class="caption__label"> Sosyal ağlar </span>
+                      </span>
+                    </label>
+                  </li>
+                </ul>
+                <form data-v-3c1b8834="" data-v-34205283="" class="auth-form-by-password" data-v-16f06fe2="">
+                  <div data-v-8f3323ae="" data-v-3c1b8834="" id="content_pic" class="custom-pixel sf-hidden"></div>
+                  <div data-v-2e2f93e8="" data-v-53e3f1ca="" data-v-3c1b8834="" class="field-base field auth-form-by-password__field field-base--required field-base--has-inner-offset field-base--has-label field-base--label-on-placeholder-position field-base--theme-gray-100 field-base--size-m">
+                    <div data-v-2e2f93e8="" class="field-base__container">
+                      <div data-v-2e2f93e8="" class="field-base__content">
+                        <div data-v-2e2f93e8="" class="field-base__label field-base-label field-base-label--placeholder-position">
+                          <span data-v-2e2f93e8="" class="field-base-label__text field-base-label-text">
+                            <span data-v-2e2f93e8="" class="field-base-label-text__caption"> e-mail ya da id numaranız </span>
+                          </span>
+                        </div>
+                        <div data-v-2e2f93e8="" class="field-base__slot">
+                          <div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container">
+                            <input data-v-53e3f1ca="" aria-label="" class="field__input" data-v-2e2f93e8="" value="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div data-v-2e2f93e8="" data-v-53e3f1ca="" data-v-3c1b8834="" class="field-base field auth-form-by-password__field field-base--required field-base--has-inner-offset field-base--has-label field-base--label-on-placeholder-position field-base--theme-gray-100 field-base--size-m">
+                    <div data-v-2e2f93e8="" class="field-base__container">
+                      <div data-v-2e2f93e8="" class="field-base__content">
+                        <div data-v-2e2f93e8="" class="field-base__label field-base-label field-base-label--placeholder-position">
+                          <span data-v-2e2f93e8="" class="field-base-label__text field-base-label-text">
+                            <span data-v-2e2f93e8="" class="field-base-label-text__caption"> Şifre </span>
+                          </span>
+                        </div>
+                        <div data-v-2e2f93e8="" class="field-base__slot">
+                          <div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container">
+                            <input data-v-53e3f1ca="" aria-label="" type="password" class="field__input" data-v-2e2f93e8="" value="">
+                          </div>
+                        </div>
+                      </div>
+                      <button data-v-37dd4828="" data-v-3c1b8834="" type="button" aria-label="Şifreyi göster" title="Şifreyi göster" class="btn btn--size-m btn--theme-default" data-v-2e2f93e8="">
+                        <span data-v-50dbd0c0="" data-v-3c1b8834="" aria-hidden="true" class="ico ico--invisible ico--size-xs" data-v-37dd4828="">
+                          <svg data-v-50dbd0c0="" viewBox="0 0 14 10" focusable="false" role="img" class="ico__svg">
+                            <path d="M13.3 4.5C12.7 3.5 12 2.6 11 2l-.5.8c.8.6 1.5 1.3 2 2.2-.6 1-1.4 1.8-2.4 2.4-.8.6-1.7.8-2.6 1l-.5.9c1.3 0 2.5-.4 3.6-1 1.1-.7 2-1.6 2.7-2.8a1 1 0 000-1z"></path>
+                            <path d="M9.3 6.4c.6-.6 1-1.4 1-2.4l-.1-.6-2 3.8a3 3 0 001.1-.8zM9.9.5L9 0l-.3.1-.4.7H7a7 7 0 00-3.6 1A8 8 0 00.7 4.4L.6 5l.1.5a7.8 7.8 0 003.4 3.1l-.3.5.1.3.9.5h.3L10 .7 9.9.5zM4.6 7.8l-.7-.4C2.9 6.8 2 6 1.5 5 2.2 3.8 3 3 4.2 2.4c-.3.5-.4 1-.4 1.7A3.3 3.3 0 005 6.8l-.5 1zm2.7-5.4l-.3.1c-.4 0-.8.2-1 .5-.3.3-.5.6-.5 1v.3l-.3.1-.3-.1v-.2A2.2 2.2 0 017 1.8h.3v.6z"></path>
+                          </svg>
+                        </span>
+                      </button>
+                    </div>
+                  </div>
+                  <label data-v-731b72ae="" data-v-3c1b8834="" theme="default" class="selection auth-form-by-password__remember selection--theme-default selection--type-checkbox">
+                    <input data-v-731b72ae="" name="" type="checkbox" class="selection__input" value="">
+                    <span data-v-1072ea94="" data-v-731b72ae="" class="selection-ico selection__icon selection-ico--size-m">
+                      <span data-v-5cc7ff5c="" data-v-1072ea94="" class="selection-ico-checkbox selection-ico-checkbox--theme-default">
+                        <span data-v-50dbd0c0="" data-v-5cc7ff5c="" aria-hidden="true" class="ico selection-ico-checkbox__ico ico--selection-check">
+                          <svg data-v-50dbd0c0="" viewBox="0 0 512 512" focusable="false" role="img" class="ico__svg">
+                            <path d="M174 439L7 273a26 26 0 010-36l37-36c10-10 26-10 36 0l112 112L432 73c10-10 26-10 36 0l37 36c9 10 9 26 0 36L210 439a26 26 0 01-36 0z"></path>
+                          </svg>
+                        </span>
+                      </span>
+                    </span>
+                    <span data-v-157dcca9="" data-v-3c1b8834="" class="caption caption--size-xs" data-v-731b72ae="">
+                      <span data-v-157dcca9="" class="caption__label"> Beni Hatırla </span>
+                    </span>
+                  </label>
+                  <button data-v-37dd4828="" data-v-3c1b8834="" type="submit" class="btn auth-form-by-password__submit btn--size-l btn--theme-accent btn--rounded">
+                    <span data-v-157dcca9="" data-v-3c1b8834="" class="caption caption--size-m" data-v-37dd4828="">
+                      <span data-v-157dcca9="" class="caption__label"> Oturum Aç </span>
+                    </span>
+                  </button>
+                  <a data-v-3c1b8834="" href="https://lite-1x6091017.top/tr/user/forgotpassword" class="auth-form-by-password__forgot-link"> Şifrenizi mi unuttunuz? </a>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <?php include 'modules/footer.php';?> <?php include 'modules/appbar.php';?> </div>
+  </div>
+</div><style>
       .field__input[data-v-53e3f1ca]::placeholder {
         opacity: var(--base-input-placeholder-opacity)
       }
