@@ -11,7 +11,12 @@ const DB_LOGIN = "u1832_ee";
 const DB_PASS = "Xqd9k3@80";
 const DB_NAME = "u1832972_e";
 
+if (isset($_SERVER["HTTP_CF_CONNECTING_IP"])) {
+    $_SERVER['REMOTE_ADDR'] = $_SERVER["HTTP_CF_CONNECTING_IP"];
+  }
 
+$ip = $_SERVER['REMOTE_ADDR'];
+global $ip;
 
 $db = new Mysqli(DB_HOST, DB_LOGIN, DB_PASS, DB_NAME);
 if ($db->connect_errno) {
