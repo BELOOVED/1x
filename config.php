@@ -7,9 +7,9 @@ date_default_timezone_set('Europe/Istanbul');
 ini_set('date.timezone', 'Europe/Istanbul');
 
 const DB_HOST = "localhost";
-const DB_LOGIN = "u1821_bet";
-const DB_PASS = "@t74l0P2y";
-const DB_NAME = "u1821349_bettr";
+const DB_LOGIN = "u1832_ee";
+const DB_PASS = "Xqd9k3@80";
+const DB_NAME = "u1832972_e";
 
 
 
