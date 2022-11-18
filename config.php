@@ -21,7 +21,7 @@ $db->set_charset("utf8");
 
 global $db;
 
-include "func.php"
+include "func.php";
 
 
 ?>
